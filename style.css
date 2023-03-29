@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background-color: hsl(30, 38%, 92%);
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.imagem-anuncio{
+float: left;
+}
+.imagem-perfume{
+  width: 500px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.conteudo-anuncio{
+  background-color: white;
+  /* display: block; */
+  float: right;
+  width: 500px;
+  height: 750px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.titulo-perfume{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  opacity: 50%;
+  letter-spacing: 7px;  
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.nome-perfume{
+  font-family:'Fraunces', serif;
+  margin-left: 40px;
+  font-size: 50px;
+  max-width: 330px;
+}
+.descricao{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-left: 40px;
+  opacity: 60%;
+  max-width: 360px;
+  font-size: 22px;
+  line-height: 34px;
+}
+.preco-novo{
+  font-family:'Fraunces', serif;
+  color: hsl(158, 36%, 37%);
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 55px;
+
+}
+.preco-antigo{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  opacity: 50%;
+  text-decoration: line-through;
+
+}
+.botao-carrinho{}
