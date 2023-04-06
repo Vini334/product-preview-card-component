@@ -1,0 +1,33 @@
+@media (max-width: 1200px) {
+  .card{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 686px;
+  }
+  .img-perfume{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+  }
+  .infos{
+    width: 686px;
+    gap: 25px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .nome-perfume{  
+    max-width: 680px;
+    font-size: 60px;
+  }
+  .descricao-perfume{
+    max-width: 670px;
+    font-size: 28px;
+    line-height: 46px;
+  }
+  .btn{
+    width: 580px;
+    height: 80px;
+  }
+}
